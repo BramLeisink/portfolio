@@ -32,6 +32,14 @@ export const skills = [
 ];
 
 export const projects: Project[] = [
+		{
+		title: 'Unfolding the Infinite',
+		description: 'Dit profielwerkstuk heeft als hoofdvraag: "Is het mogelijk om een algoritme te ontwerpen om n-dimensionale polytopen te ontwikkelen naar (n-1)-dimensionale netstructuren?"',
+		technologies: ['LaTeX', 'Python'],
+		imageUrl: '/unfolding-the-infinite.png',
+		demoLink: 'https://pws.bramleisink.nl'
+	},
+	
 	{
 		title: 'Fibonacci Clock',
 		description: 'Een unieke klok die gebruik maakt van de fibonacci-reeks.',
